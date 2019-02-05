@@ -1,6 +1,6 @@
 {
   "name": "@gmdev/airport",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Example Airport Component",
   "main": "dist/index.js",
   "module": "src/index.js",
