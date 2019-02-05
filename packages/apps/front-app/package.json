@@ -1,7 +1,6 @@
 {
   "name": "front-app",
   "version": "0.1.2",
-  "private": true,
   "dependencies": {
     "@babel/core": "7.1.6",
     "@gmdev/airport": "0.0.5",
