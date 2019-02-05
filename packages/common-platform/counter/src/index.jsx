@@ -1,4 +1,4 @@
-import { Component } from 'react';
+import React, { Component } from "react";
 
 class Counter extends Component {
   state = { count: this.props.initialCount ? this.props.initialCount : 0 };
@@ -28,7 +28,7 @@ class Counter extends Component {
   }
 
   render() {
-    return this.props.children(this.getStateAndHelpers());
+    return <div>counter </div>;
   }
 }
 

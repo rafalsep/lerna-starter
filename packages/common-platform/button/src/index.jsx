@@ -1,4 +1,4 @@
-import { PureComponent } from 'react';
+import React, { PureComponent } from 'react';
 
 class Button extends PureComponent {
   getProps = props => ({
@@ -14,7 +14,8 @@ class Button extends PureComponent {
   }
 
   render() {
-    return this.props.children(this.getStateAndHelpers());
+    const aa = { bb: 'bb' };
+    return <button>qwertyaaaa</button>
   }
 }
 

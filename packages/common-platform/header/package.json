@@ -1,7 +1,7 @@
 {
-  "name": "@gmdev/counter",
+  "name": "@gmdev/header",
   "version": "0.0.3",
-  "description": "Example Counter Component",
+  "description": "Example Header Component",
   "main": "dist/index.js",
   "module": "src/index.js",
   "author": "Gary Meehan",

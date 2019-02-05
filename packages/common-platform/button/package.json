@@ -5,8 +5,7 @@
   "main": "dist/index.js",
   "module": "src/index.js",
   "author": "Gary Meehan",
-  "peerDependencies": {
-    "react": "^16.0.0"
+  "dependencies": {
   },
   "publishConfig": {
     "access": "public"

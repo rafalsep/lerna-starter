@@ -9,13 +9,16 @@
     "test": "jest --coverage",
     "test:watch": "jest --watch",
     "bootstrap": "lerna bootstrap --hoist",
-    "build": "lerna exec --parallel -- babel src -d dist --ignore src/__tests__/,src/__stories__/,src/__wireframe__/**",
-    "build:watch": "npm run build -- --watch",
+    "build": "lerna exec --parallel -- babel src -d dist --ignore apps/**,src/__tests__/,src/__stories__/,**front-app/src/**",
+    "build-common": "lerna exec --scope=@gmdev/* -- babel src -d dist --ignore apps/**,src/__tests__/,src/__stories__/,**front-app/src/**",
+    "build-front": "lerna exec --scope=front-app -- npm run build",
+    "build:watch": "npm run build-common -- --watch",
     "export-static-storybook": "build-storybook -c .storybook -o .out",
     "publish-packages": "lerna publish",
     "prepublish-packages": "npm run build",
     "precommit": "npm run test",
-    "postinstall": "npm run bootstrap"
+    "postinstall": "npm run bootstrap",
+    "startFront": "lerna exec --scope=front-app -- npm start --watch"
   },
   "repository": {
     "type": "git",
