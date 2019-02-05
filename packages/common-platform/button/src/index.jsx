@@ -15,7 +15,7 @@ class Button extends PureComponent {
 
   render() {
     const aa = { bb: 'bb' };
-    return <button>qwertyaaaaZApp</button>
+    return <button>qwertyaaaaZAppww</button>
   }
 }
 
