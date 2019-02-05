@@ -8,7 +8,7 @@ const Airport = ({ className, name, code, showStacked }) => {
   return (
     <span className={containerClass} data-code={code}>
       {name || code}
-      <Button><span>BUTTON</span></Button>
+      <Button><span>BUTTON2</span></Button>
     </span>
   );
 };
