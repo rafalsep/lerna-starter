@@ -1,9 +1,9 @@
 {
   "name": "front-app",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "dependencies": {
     "@babel/core": "7.1.6",
-    "@gmdev/airport": "^0.0.7",
+    "@gmdev/airport": "^0.0.8",
     "@gmdev/button": "^0.0.8",
     "@gmdev/counter": "^0.0.5",
     "@gmdev/header": "^0.0.5",
