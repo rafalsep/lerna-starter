@@ -5,7 +5,7 @@
   "dependencies": {
     "@babel/core": "7.1.6",
     "@gmdev/airport": "^0.0.4",
-    "@gmdev/button": "^0.0.3",
+    "@gmdev/button": "^0.0.6",
     "@gmdev/counter": "^0.0.4",
     "@gmdev/header": "^0.0.4",
     "@svgr/webpack": "2.4.1",
