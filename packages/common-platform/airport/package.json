@@ -1,12 +1,12 @@
 {
   "name": "@gmdev/airport",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Example Airport Component",
   "main": "dist/index.js",
   "module": "src/index.js",
   "author": "Gary Meehan",
   "dependencies": {
-    "@gmdev/button": "^0.0.8",
+    "@gmdev/button": "^0.0.9",
     "classnames": "2.2.6",
     "prop-types": "15.6.2"
   },
