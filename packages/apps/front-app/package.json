@@ -1,13 +1,13 @@
 {
   "name": "front-app",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "dependencies": {
-    "@gmdev/button": "^0.0.3",
-    "@gmdev/counter": "^0.0.3",
-    "@gmdev/header": "^0.0.3",
-    "@gmdev/airport": "^0.0.3",
     "@babel/core": "7.1.6",
+    "@gmdev/airport": "^0.0.4",
+    "@gmdev/button": "^0.0.3",
+    "@gmdev/counter": "^0.0.4",
+    "@gmdev/header": "^0.0.4",
     "@svgr/webpack": "2.4.1",
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "9.0.0",
