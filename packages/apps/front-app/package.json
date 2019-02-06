@@ -1,11 +1,11 @@
 {
   "name": "front-app",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "dependencies": {
     "@babel/core": "7.1.6",
     "@gmdev/airport": "^0.0.10",
     "@gmdev/button": "^0.0.9",
-    "@gmdev/counter": "^0.0.6",
+    "@gmdev/counter": "^0.0.7",
     "@gmdev/header": "^0.0.6",
     "@svgr/webpack": "2.4.1",
     "babel-core": "7.0.0-bridge.0",
