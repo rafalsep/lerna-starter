@@ -28,7 +28,7 @@ class Counter extends Component {
   }
 
   render() {
-    return <div>counter 333</div>;
+    return <div>counter 777</div>;
   }
 }
 
