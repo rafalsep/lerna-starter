@@ -7,5 +7,8 @@
   "author": "Gary Meehan",
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "@gmdev/counter": "0.0.3"
   }
 }

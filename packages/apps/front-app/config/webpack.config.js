@@ -1,6 +1,6 @@
 'use strict';
 
-const BundleAnalyzerPlugin = require("webpack-bundle-analyzer") .BundleAnalyzerPlugin
+// const BundleAnalyzerPlugin = require("webpack-bundle-analyzer") .BundleAnalyzerPlugin
 const fs = require('fs');
 const path = require('path');
 const webpack = require('webpack');
@@ -37,9 +37,9 @@ const useTypeScript = fs.existsSync(paths.appTsConfig);
 
 // style files regexes
 const cssRegex = /\.css$/;
-const cssModuleRegex = /\.module\.css$/;
+const cssModuleRegex = /\.css$/;
 const sassRegex = /\.(scss|sass)$/;
-const sassModuleRegex = /\.module\.(scss|sass)$/;
+const sassModuleRegex = /\.(scss|sass)$/;
 
 // This is the production and development configuration.
 // It is focused on developer experience, fast rebuilds, and a minimal bundle.
@@ -419,7 +419,6 @@ module.exports = function(webpackEnv) {
             // extensions .module.scss or .module.sass
             {
               test: sassRegex,
-              exclude: sassModuleRegex,
               use: getStyleLoaders(
                 {
                   importLoaders: 2,
@@ -509,7 +508,7 @@ module.exports = function(webpackEnv) {
       // In development, this will be an empty string.
       new InterpolateHtmlPlugin(HtmlWebpackPlugin, env.raw),
 
-      new BundleAnalyzerPlugin({ analyzerMode: "static", reportFilename: "report.html", }),
+      // new BundleAnalyzerPlugin({ analyzerMode: "static", reportFilename: "report.html", }),
 
       // This gives some necessary context to module not found errors, such as
       // the requesting resource.
